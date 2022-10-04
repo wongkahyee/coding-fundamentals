@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* set default background color */
+            background-color: white;
+        }
+
+        @media (min-width: 640px) { 
+            /* 
+            - show mobile div
+            - hide tablet and desktop divs
+            */
+            body{
+                background-color: red;
+            }
+            .mobile{
+                display: block;
+            }    
+            .tablet{
+                display: none;
+            }
+
+            .desktop{
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            /*
+            - show tablet div
+            - hide mobile and desktop divs
+            - change background color
+            */
+            body{
+                background-color: green;
+            }
+            .mobile{
+                display: none;
+            }    
+            .tablet{
+                display: block;
+            }
+
+            .desktop{
+                display: none;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            /*
+            - show desktop div
+            - hide mobile and tablet divs
+            - change background color
+            */
+            body{
+                background-color: blue;
+            }
+
+            .mobile{
+                display: none;
+            }    
+            .tablet{
+                display: none;
+            }
+
+            .desktop{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="mobile">
+          <!-- add in title and paragraph -->
+          <h1>Mobile Screen</h1>
+          <p>Red Colour</p>
+        </div>
+      
+        <div class="tablet">
+          <!-- add in title and paragraph -->
+          <h1>Tablet Screen</h1>
+          <p>Green Colour</p>
+        </div>
+      
+        <div class="desktop">
+          <!-- add in title and paragraph -->
+          <h1>Desktop Screen</h1>
+          <p>Blue Colour</p>
+        </div>
+</body>
+</html>
