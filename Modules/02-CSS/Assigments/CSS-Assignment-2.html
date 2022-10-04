@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .breadcrumb { 
+            background-color: lightgray;
+        /*
+         - add some padding around it
+        - add background color
+         - remove the bullet points on the list
+        */
+
+        }
+
+        .breadcrumb li {
+            display: inline-block;
+        }
+
+        .breadcrumb li a {
+            color: blue;
+        }
+
+        a::after {
+            content: '/';
+            padding: 10px;
+            color: black;
+            text-decoration-line: none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="breadcrumb">  
+        <li><a href="#">Home</a></li>  
+        <li><a href="#">Users</a></li>  
+        <li><a href="#">Wong Kah Yee</a></li>  
+        <li>Info</li>
+      </ul>
+</body>
+</html>
