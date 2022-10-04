@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 3</title>
+    <style>
+       .menu {    
+            /* Style for menu button */
+            position: relative;    
+        }
+
+        .submenu {    
+            /* Hide submenu */
+            display: none;
+            position: absolute;
+            background-color: lightgray;
+            z-index: 1;
+        }
+            
+        .submenu-item{
+            color: black;
+            padding: 10px;
+            display: block;
+        }
+
+       .menu:hover .submenu {    
+            /* Show submenu on hover */
+            display: block;
+        }
+
+        .submenu-item:hover{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">            
+        <span>Settings</span>
+                  
+        <div class="submenu">                
+          <span class="submenu-item">Account</span>                
+          <span class="submenu-item">Log out</span>            
+        </div>        
+      </div>
+</body>
+</html>
