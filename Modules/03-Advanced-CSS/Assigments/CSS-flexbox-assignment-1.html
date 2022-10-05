@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KY's Crypto Blog</title>
+    <style>
+        header{
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .herosection{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+
+        .heroimage{
+            height: 300px;
+            padding: 20px;
+            border-radius: 40px;
+        }
+
+        .heroheader{ 
+            color: white;
+        }
+
+        .herotext{
+            font-size: large;
+            color: white;
+        }
+
+        main{
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        section{
+            border: 2px solid lightgray;
+            border-radius: 5px;
+            margin: 10px;      
+        }
+
+        .blogimg{
+            height: 200px;
+            width: 300px;
+        }
+
+        .tag{
+            background-color: lightblue;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .creator{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .authorimage{
+            height: 50px;
+            width: 50px;
+            border-radius: 9999px;
+        }
+      
+        .author{
+            display: flex;
+        }
+
+       @media (max-width:600px) {
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }    
+    }
+    </style>
+</head>
+<body>
+    <!-- This will be the hero section -->
+    <header>
+        <div class="herosection">
+            <h1 class="heroheader">Our Blog</h1>
+            <p class="herotext">
+                Read all about crypto and learn how it will change the <br>
+                globe by disrupting massive global industries and <br>
+                world governments as we progress into the 21st Century.
+            </p>
+        </div>
+        <figure>
+            <img class="heroimage" src="https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/cryptocurrency-ge00a1119e_1280.jpg?itok=WQGwXkFy" alt="crypto globe image">
+        </figure>
+    </header>
+    <!-- This will be the main content which is the blog card section -->
+    <main>
+    <!-- This will be the 5 blog cards -->
+        <section>
+            <figure>
+                <a href="#" target="_blank">
+                    <img style="border: 1px solid lightgrey;" class="blogimg" src="https://miro.medium.com/max/824/1*Cz-YrwvyO0bgFVnHdlgZWg.png" alt="merchant token image">
+                </a>
+            </figure>
+            <!-- This will be the tags -->
+            <div class="tag">cryptocurrency</div>
+            <div class="tag">defi</div>
+            <div class="tag">altcoins</div>
+            <!-- This will be the blog title -->
+            <h2>
+                The Future of Decentralized <br>
+                Consumer Protection : MTO
+            </h2>
+            <!-- This will be the creator and date -->
+            <div class="creator">
+                <div class="author">
+                    <img class="authorimage" src="/assets/Kah Yee.jpeg" alt="image of blog author">
+                    <p>Wong Kah Yee</p>
+                </div>
+                <p>05/10/2022 12:05PM</p>
+            </div>
+        </section>
+        <section>
+            <figure>
+                <a href="#">
+                    <img class="blogimg" src="https://blockgeeks.com/wp-content/uploads/2016/10/What-are-Smart-Contracts_.png.webp" alt="image of a virtual ethereum smart contract">
+                </a>
+            </figure>
+            <!-- This will be the tags -->
+            <div class="tag">smart contracts</div>
+            <div class="tag">ethereum</div>
+            <!-- This will be the blog title -->
+            <h2>
+                All You Need to Know About <br>
+                Smart Contracts in 5 minutes
+            </h2>
+           <!-- This will be the creator and date -->
+           <div class="creator">
+            <div class="author">
+                <img class="authorimage" src="/assets/Kah Yee.jpeg" alt="image of blog author">
+                <p>Wong Kah Yee</p>
+            </div>
+            <p>05/10/2022 12:05PM</p>
+        </div>
+        </section>
+        <section>
+            <figure>
+                <a href="#">
+                    <img class="blogimg" src="https://www.investopedia.com/thmb/53uDfOwaX2o58dptOQL75o_xF7w=/660x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/bitcoin_mining-5bfd7134c9e77c0058b1870d" alt="custom bitcoin miner image">
+                </a>
+            </figure>
+            <!-- This will be the tags -->
+            <div class="tag">cryptocurrency</div>
+            <div class="tag">crpyto mining</div>
+            <!-- This will be the blog title -->
+            <h2>
+                How to Start Your Own <br>
+                Bitcoin Mining Farm
+            </h2>
+           <!-- This will be the creator and date -->
+           <div class="creator">
+            <div class="author">
+                <img class="authorimage" src="/assets/Kah Yee.jpeg" alt="image of blog author">
+                <p>Wong Kah Yee</p>
+            </div>
+            <p>05/10/2022 12:05PM</p>
+        </div>
+        </section>
+        <section>
+            <figure>
+                <a href="#">
+                    <img class="blogimg" src="https://www.csm.tech/storage/uploads/images/4211web_3_2.jpg" alt="image of a virtual ethereum smart contract">
+                </a>
+            </figure>
+            <!-- This will be the tags -->
+            <div class="tag">web 3.0</div>
+            <div class="tag">blockchain</div>
+            <!-- This will be the blog title -->
+            <h2>Web 3.0 : The Evolution of the Internet</h2>
+           <!-- This will be the creator and date -->
+           <div class="creator">
+            <div class="author">
+                <img class="authorimage" src="/assets/Kah Yee.jpeg" alt="image of blog author">
+                <p>Wong Kah Yee</p>
+            </div>
+            <p>05/10/2022 12:05PM</p>
+        </div>
+        </section>
+        <section>
+            <figure>
+                <a href="#">
+                    <img class="blogimg" src="https://www.business2community.com/wp-content/uploads/2022/09/September-Bearish-Crypto.png" alt="image of falling bitcoin price chart">
+                </a>
+            </figure>
+            <!-- This will be the tags -->
+            <div class="tag">cryptocurrency</div>
+            <div class="tag">crypto market</div>
+            <!-- This will be the blog title -->
+            <h2>Cryptocurrencies : Buy the Dip?</h2>
+            <!-- This will be the creator and date -->
+            <div class="creator">
+                <div class="author">
+                    <img class="authorimage" src="/assets/Kah Yee.jpeg" alt="image of blog author">
+                    <p>Wong Kah Yee</p>
+                </div>
+                <p>05/10/2022 12:05PM</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
