@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        nav{
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        ul{
+            display: flex;
+        }
+
+        li{
+            list-style-type: none;
+            padding: 10px 20px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .logo{
+            height: 50px;
+            margin-left: 10px;
+        }
+
+        .actionbutton{
+            font-size: 1rem;
+            text-align: center;
+            width: 130px;
+            height:40px;
+            padding: 10px;
+            color: black;
+            border-radius: 20px;
+            background-color: lightyellow;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+        }
+
+        .actionbutton:hover{
+            font-weight: bold;
+            
+        }
+
+        .heading{
+            background-color: lightyellow;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .icon{
+            width: 20px;
+            height: 20px;
+        }
+
+        .familyimg{
+            height: 250px;
+            padding: 20px 0;
+        }
+
+        main{
+            background-color: lightblue;
+            display: flex;        
+        }
+
+        .contactinfo{
+            padding: 30px 100px;  
+        }
+
+        .tel, .mail{
+            display: flex;
+            padding: 10px 0;
+        }
+
+        .contact{
+            padding-left: 10px;
+        }
+
+        .social{
+            padding-left: 0;
+        }
+
+        .formsection{
+            padding-left: 50px;
+        }
+
+        .messageheader{
+            padding: 30px 190px;
+        }
+
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .formsection{
+            padding: 10px 50px;
+        }
+
+        label{
+            font-weight: bold;
+            font-size: large;
+        }
+
+        input{
+            font-size: x-large;
+        }
+
+        #subject{
+            width: 700px;
+        }
+
+        textarea{
+            width: 700px;
+            height: 200px;
+        }
+
+        .submit{
+            padding-right: 130px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .submitbutton{
+            font-size: 1rem;
+            text-align: center;
+            width: 130px;
+            height:40px;
+            padding: 10px;
+            color: black;
+            border-radius: 10px;
+            background-color: lightyellow;
+            cursor: pointer;
+        }
+
+        .submitbutton:hover{
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+              </svg>              
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+            </ul>
+            <button class="actionbutton" type="button">Register Now</button>
+        </nav>
+    </header>
+    <section class="heading">
+        <article>
+            <h1>Let's Connect</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ad doloremque <br>
+            perferendis voluptatum, sed aspernatur iure? Sequi dolorem eligendi eveniet itaque <br>
+            dignissimos maiores quasi quas obcaecati velit excepturi in expedita aliquam minus <br>
+            culpa, doloribus reiciendis sunt ea iure, ipsa explicabo. Lorem, ad ipsum dolor.
+        </p>
+        </article>  
+        <figure>
+            <img class="familyimg" src="/assets/happy family.jpg" alt="image of a happy family">
+        </figure>
+    </section>
+    <main>
+        <section class="contactinfo">
+            <h2>Contact Information</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur <br>
+                adipisicing elit. Eum amet, dolorum ad <br>
+                vitae ipsam repudiandae lorem ipsum.
+            </p>
+            <div class="tel">
+                <div>
+                    <a href="tel:+60123456789">
+                        <img class="icon" src="assets/phone icon.png" alt="phone icon">
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="tel:+60123456789">(+60)12 345 6789</a>
+                </div>
+            </div>      
+            <div class="mail">
+                <div>
+                    <a href="mailto:company@mail.com">
+                        <img class="icon" src="/assets/email icon.png" alt="email icon">
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="mailto:company@mail.com">buildingcompany@mail.com</a>
+                </div>
+            </div>
+            <ul class="social" >
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <img class="icon" src="/assets/fb icon.png" alt="facebook icon">
+                    </a> 
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">
+                        <img class="icon" src="/assets/ig icon.png" alt="instagram icon">
+                    </a> 
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/">
+                        <img class="icon" src="/assets/twitter icon.png" alt="instagram icon">
+                    </a> 
+                </li>
+            </ul>
+        </section>
+        <section class="formsection">
+            <h2 class="messageheader" >Drop us a message</h2>
+            <form action="#">
+                <div class="formsection">
+                    <label for="firstname">First Name</label>
+                    <p>
+                        <input type="name" name="firstname" id="firstname" required>
+                    </p>
+                </div>
+                <div class="formsection">
+                    <label for="Lastname">Last Name</label>
+                    <p>
+                        <input type="name" name="lastname" id="lastname" required>
+                    </p>
+                </div>
+                <div class="formsection">
+                    <label for="email">Email</label>
+                    <p>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                </div>
+                <div class="formsection">
+                    <label for="phone">Phone</label>
+                    <p>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                </div>
+                <div class="formsection">
+                    <label for="subject">Subject</label>
+                    <p>
+                        <input type="text" name="subject" id="subject">
+                    </p>
+                </div>
+                <div class="formsection">
+                    <label for="message">Message</label>
+                    <p>
+                        <textarea name="message" id="message" maxlength="300"></textarea>
+                    </p>
+                </div>
+            </form>
+            <div class="submit">
+                <button class="submitbutton" type="submit">Submit</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
