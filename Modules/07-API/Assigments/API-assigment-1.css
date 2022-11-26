@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    border: 2px solid black;
+    width: 70%;
+    height: 300px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.text-area {
+    font-size: large;
+    margin-top: 30px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.author {
+    color: red;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+#button {
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#button:hover {
+    background-color: grey;
+    border: none;
+}
