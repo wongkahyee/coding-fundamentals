@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    margin: 20px auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 9999px;
+    width: 150px;
+    margin: 20px auto;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.bio {
+    margin: 20px auto;
+}
