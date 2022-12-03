@@ -1,0 +1,19 @@
+1. Loops are used to save time and effort from having to repeat lines of code. An example of a basic for loop would be : 
+    for (inititalExpression; stoppingCondition; incrementExpression) {
+        statement
+    }
+
+2. Console.log() prints or logs the value onto the console whereas return is simply used for returning values from a function instead of displaying it.
+
+3. Truthy and falsy are simply true or false values in boolean statements. Truthy = true whereas falsy = false.
+
+4. The internet is simply a network of servers that stores and hosts data. Each of these servers have their own unique Internet Protocol (IP) address 
+   that helps computers to find each other. In order to connect to the internet, an Internet Service Provider (ISP) is needed as it acts as a middleman 
+   to connect users or clients to the servers on the internet.
+
+5. How does a website work? What files are involved?
+   A website simply has three parts to it namely the front-end which is what users see when on websites are displayed on screens, the back-end which is 
+   the database of the website and finally third party services which is also known as Application Programming Interface (APIs) which let you use awesome
+   stuff other people have built, so that you don’t have to rebuild it yourself.
+   The main types of files involved in websites are the code files such as HTML(webpage structure), CSS(design styles), Javascript(interactive webpage features) files and the asset files which store media files such
+   as images, audio, video, etc.
