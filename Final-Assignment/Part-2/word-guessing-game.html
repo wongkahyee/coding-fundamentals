@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="./word-guessing-game.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Guess the Word</h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs"></div>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="guess-left">Remaining Guesses: <span></span></p>
+                <p class="wrong-letter">Wrong letters: <span></span></p>
+            </div>
+            <button class="reset-button">Reset Game</button>
+        </div>
+    </div>
+    <div class="audio">
+        <audio src="./assets/mixkit-player-losing-or-failing-2042.wav" class="game-over"></audio>
+        <audio src="./assets/success-fanfare-trumpets-6185.mp3" class="correct-word"></audio>
+        <audio src="./assets/wrong-buzzer-6268.mp3" class="wrong-letter"></audio>
+        <audio src="./assets/mixkit-winning-a-coin-video-game-2069.wav" class="correct-letter"></audio>
+    </div>
+    <script src="./word-guessing-game-word.js"></script>
+    <script src="./word-guessing-game.js"></script>
+</body>
+</html>
